@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.uslugi_cards{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.header{
+    background-color: #252525;
+    border: #E95B0C 2px solid;
+    height: 149px;
+    border-radius: 10px;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+}
+
+.header_butns{
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+    gap: 240px;
+    align-items: center;
+}
+
+.about_but{
+    height: 80px;
+    width: 253px;
+    background-color: #2D2D2D;
+    color: #fff;
+    border: #E95B0C  2px solid;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.about_but:hover{
+    background-color: #ccc;
+    transition: 500ms;
+}
+
+.uslugi_but{
+    height: 80px;
+    width: 253px;
+    color: #fff;
+    background-color: #2D2D2D;
+    border: #E95B0C  2px solid;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.uslugi_but:hover{
+    background-color: #ccc;
+    transition: 500ms;
+}
+
+.about{
+    background-color: #525252;
+    color: #fff;
+}
+
